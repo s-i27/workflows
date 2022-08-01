@@ -1,5 +1,6 @@
 # .github/release.yml
-
+name-template: 'v$NEXT_PATCH_VERSION'
+tag-template: 'v$NEXT_PATCH_VERSION'
 changelog:
   exclude:
     labels:
@@ -14,3 +15,31 @@ changelog:
     - title: Other
       labels:
         - "*"
+template: |
+  ## Changes
+
+  $CHANGES
+
+
+name-template: 'v$NEXT_PATCH_VERSION'
+tag-template: 'v$NEXT_PATCH_VERSION'
+categories:
+  - title: '🚀 Features'
+    labels:
+      - 'Added'
+      - 'Changed'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'Deprecated'
+      - 'Fixed'
+      - 'Other'
+  - title: '🧰 Maintenance'
+    labels:
+      - 'Security'
+change-title-escapes: '\<*_&'
+exclude-labels:
+  - 'exclude from changelog'
+template: |
+   ## Changes
+
+   $CHANGES
