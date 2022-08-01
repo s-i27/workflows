@@ -1,0 +1,15 @@
+name: Dispatcher
+on:
+  workflow_dispatch:
+
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Invoke workflow
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: Dispatched
+        token: ${{ secrets.TOKEN }}
+        inputs: '{ "message": "blah blah", "debug": "true" }'

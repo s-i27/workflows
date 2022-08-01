@@ -1,0 +1,17 @@
+name: Dispatched
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        default: 'test'
+      debug:
+        default: 'false'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Tests
+      run:
+        echo ${{ github.event.inputs.message }}
+        echo ${{ github.event.inputs.debug }}
