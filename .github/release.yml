@@ -38,7 +38,7 @@ categories:
       - 'Security'
 change-title-escapes: '\<*_&'
 exclude-labels:
-  - 'exclude from changelog'
+  - 'Other'
 template: |
    ## Changes
 
