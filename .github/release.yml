@@ -1,0 +1,16 @@
+# .github/release.yml
+
+changelog:
+  exclude:
+    labels:
+      - Other
+  categories:
+    - title: Add new features.
+      labels:
+        - Added
+    - title: Change existing functionality.
+      labels:
+        - Changed
+    - title: Other
+      labels:
+        - "*"
