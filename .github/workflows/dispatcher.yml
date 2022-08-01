@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - name: Invoke workflow
-      uses: benc-uk/workflow-dispatch@v1
+      uses: s-i27/workflow-dispatch@v1
       with:
         workflow: Dispatched
         token: ${{ secrets.TOKEN }}
