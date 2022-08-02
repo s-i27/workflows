@@ -1,10 +1,9 @@
----
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
----
-
+Keep a changelogの
+  Added
+  Changed
+  Deprecated
+  Fixed
+  Removed
+  Security
+  Onboarding
 
