@@ -16,7 +16,7 @@ e.g.2)このプルリクでは~ファイルはリファクタリング対象外�
 ## UI動作確認/画像
 
 
-## DB動作確認/画像
+## DB動作確認/画像 SQL
 
 
 ## レビューアーに確認してもらいたいこと/参考情報
@@ -24,7 +24,16 @@ e.g.2)このプルリクでは~ファイルはリファクタリング対象外�
 e.g.1)仕様にあった実装をしているのか
 e.g.2)処理が効率的かを見て欲しいのか
 
-## デフォルトブランチへマージ時 Issue自動close
-fix #Issue番号
-close #Issue番号
-resolve #Issue番号
+## デフォルトブランチへマージ時 Issue自動closeするために issue と PR をキーワードで関連付けてください。
+Closes #n
+Resolves #10, resolves #123
+
+<!-- close
+closes
+closed
+fix
+fixes
+fixed
+resolve
+resolves
+resolved -->
