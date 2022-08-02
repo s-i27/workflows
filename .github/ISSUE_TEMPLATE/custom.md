@@ -6,4 +6,3 @@ Keep a changelogの
   Removed
   Security
   Onboarding
-

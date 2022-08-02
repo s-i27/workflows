@@ -1,10 +1,10 @@
 ---
-name: 不具合
+name: 不具合修正
 about: 不具合がある場合、こちらを利用してください。
-title: 'Fix_〇〇'
+title: Fix_n
 labels: 'Fixed'
 assignees: 's-i27'
-
+Projects: 's-i27'
 ---
 
 # 概要
