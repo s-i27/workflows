@@ -9,7 +9,7 @@
 closes #n
 
 ※ closes キーワードで Issue と PR が リンクされます。
-※ リンクすることで、デフォルトブランチへマージ時 Issueを自動closeできます。[詳細はこちら。](#ref)
+※ リンクすることで、デフォルトブランチへマージ時 Issueを自動closeできます。[詳細はこちら](#ref)
 
 ## なぜこのタスクを行うのか
 - レビューアーがパッと見て何の目的でコードを書いたのかを簡潔に記述
@@ -35,16 +35,19 @@ closes #n
 - e.g.2)処理が効率的かを見て欲しいのか
 
 ## ref
+
 ### Issue と PR をリンクするキーワード
-close
-closes
-closed
-fix
-fixes
-fixed
-resolve
-resolves
-resolved
+| キーワード | 
+|:---|
+|close |
+|closes |
+|closed |
+|fix |
+|fixes |
+|fixed |
+|resolve |
+|resolves |
+|resolved |
 
 ### 複数 Issue がある場合
 closes #n, closes #n
