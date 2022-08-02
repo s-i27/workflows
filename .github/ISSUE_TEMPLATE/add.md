@@ -1,19 +1,21 @@
+<!-- Keep a changelogの
+Added
+Changed
+Deprecated
+Fixed
+Removed
+Security
+Onboarding
+ -->
+
 ---
 name: 機能要望
 about: 欲しい機能がある場合、こちらを利用してください。
-title: 'enhancement_〇〇'
-labels: 'add'
+title: 'Add_〇〇'
+labels: 'Added'
 assignees: 's-i27'
-
 ---
 
----
-name: 機能要望
-about: 欲しい機能がある場合、こちらを利用してください。
----
-
-
-<!-- 要望のテンプレート -->
 # 概要
 
 # 目的
