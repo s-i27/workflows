@@ -1,13 +1,3 @@
-<!-- Keep a changelogの
-Added
-Changed
-Deprecated
-Fixed
-Removed
-Security
-Onboarding
- -->
-
 ---
 name: 不具合
 about: 不具合がある場合、こちらを利用してください。
