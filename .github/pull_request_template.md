@@ -29,11 +29,12 @@
 
 ## デフォルトブランチへマージ時 Issueを自動closeします。
 ## Issue と PR をキーワード(#nにIssueを入力)で関連付けてください。
-Closes #n
-## 複数 Issue がある場合
-Closes #n, Closes #n
+closes #n
+### 複数 Issue がある場合
+closes #n, Closes #n
 
-<!-- close
+### リンクキーワード
+close
 closes
 closed
 fix
@@ -41,4 +42,4 @@ fixes
 fixed
 resolve
 resolves
-resolved -->
+resolved
