@@ -37,15 +37,17 @@ closes #n
 ## ref
 
 ### Issue と PR をリンクするキーワード
-close
-closes
-closed
-fix
-fixes
-fixed
-resolve
-resolves
-resolved
+| キーワード | 
+|:---|
+|close |
+|closes |
+|closed |
+|fix |
+|fixes |
+|fixed |
+|resolve |
+|resolves |
+|resolved |
 
 ### 複数 Issue がある場合
 closes #n, closes #n
