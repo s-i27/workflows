@@ -14,6 +14,7 @@ about: 不具合がある場合、こちらを利用してください。
 title: 'Fix_〇〇'
 labels: 'Fixed'
 assignees: 's-i27'
+
 ---
 
 # 概要
