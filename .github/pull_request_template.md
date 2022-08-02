@@ -5,13 +5,11 @@
 - [ ] 意図しないマージを防ぐため、ドラフトプルリクエストでの作成をお願いします
 
 ## Issue Link (#nにIssue番号を入力)
-closes #n
-### 複数 Issue がある場合
-closes #n, closes #n
 
-※closes キーワードで Issue と PR が リンクされます。
-※リンクすることで、デフォルトブランチへマージ時 Issueを自動closeできます。
-※キーワードを変更する場合は後述するリンクキーワードを確認してください。
+closes #n
+
+※ closes キーワードで Issue と PR が リンクされます。
+※ リンクすることで、デフォルトブランチへマージ時 Issueを自動closeできます。[詳細はこちら。](#ref)
 
 ## なぜこのタスクを行うのか
 - レビューアーがパッと見て何の目的でコードを書いたのかを簡潔に記述
@@ -36,6 +34,7 @@ closes #n, closes #n
 - e.g.1)仕様にあった実装をしているのか
 - e.g.2)処理が効率的かを見て欲しいのか
 
+## ref
 ### Issue と PR をリンクするキーワード
 close
 closes
@@ -46,3 +45,6 @@ fixed
 resolve
 resolves
 resolved
+
+### 複数 Issue がある場合
+closes #n, closes #n
