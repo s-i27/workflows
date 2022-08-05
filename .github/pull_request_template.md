@@ -38,7 +38,7 @@ closes #n
 ## Referrence
 
 ### Serch
-https://github.com/search/advanced?q=AccountName+repo%3Agogojungle%2Facc.gogojungle.co.jp&type=Code
+
 
 ### Issue と PR をリンクするキーワード
 | キーワード | 
