@@ -3,11 +3,7 @@
 - [ ] プルリクのタイトルはリリースノートに表示されますので、このタスクの概要について記載願います
 - [ ] 画面、機能が複数に渡る場合はプルリクを分けて作成しましょう
 - [ ] 意図しないマージを防ぐため、ドラフトプルリクエストでの作成をお願いします
-<<<<<<< HEAD
-- [ ] １５分考えてもわからない不明点ございましたら、discussions に起票してリンクを教えて下さい（Google人工知能チームの15分ルール）
-=======
-- [ ] 不明点やアイデアはDiscussionsに起票をお願いします
->>>>>>> d1506cdf852262a03e94d3220885dab505b4321d
+- [ ] １５分考えてもわからない不明点ございましたら、GITHUB discussions に起票してリンクを教えて下さい（Google人工知能チームの15分ルール）
 
 ## Issue Link(#nにIssue番号を入力) or BackLog Link 
 closes #n
@@ -45,9 +41,6 @@ https://github.com/search/advanced
 
 ## Repository Timeline
 https://github.com/s-i27/workflows/network
-
-### Serch
-
 
 ### Issue と PR をリンクするキーワード
 | キーワード | 
