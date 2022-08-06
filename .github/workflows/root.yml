@@ -1,0 +1,24 @@
+# Best practice 
+# https://qiita.com/kannkyo/items/dd8b11315b4433fda543
+# https://zenn.dev/snowcait/scraps/9d9c47dc4d0414
+# https://github.com/SnowCait/git-notes/blob/master/GitHubActions.md#github-actions
+# 特にセキュリティ
+# jobs:
+#   <job_id>:
+#     timeout-minutes: 1
+
+name: Manually triggered workflow
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Person to greet'
+        required: true
+        default: 'Mona the Octocat'
+      steps:
+        - run: cat $GITHUB_EVENT_PATH
+      steps:
+        - run: gh --version
+        - run: docker --version
+        - run: docker-compose --version
